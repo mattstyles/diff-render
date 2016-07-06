@@ -71,7 +71,7 @@ screen.on('keypress', function (ch, key) {
     model.index++
   }
 
-  screen.debug(model)
+  screen.debug(model.index)
 
   main()
 })
