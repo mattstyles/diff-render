@@ -1,0 +1,42 @@
+{
+  "name": "diff-render",
+  "version": "0.0.0",
+  "description": "Example of diff rendering with React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "blessed": "node blessed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattstyles/diff-render.git"
+  },
+  "author": "Matt Styles <matt@veryfizzyjelly.com> (http://github.com/mattstyles)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattstyles/diff-render/issues"
+  },
+  "homepage": "https://github.com/mattstyles/diff-render#readme",
+  "babel": {
+    "presets": [
+      "urban"
+    ]
+  },
+  "browserify": {
+    "plugins": [
+      "babelify"
+    ]
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "react": "^0.14.7",
+    "react-blessed": "^0.1.7",
+    "react-hyperscript": "^2.4.0"
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "budo": "^8.3.0"
+  }
+}
